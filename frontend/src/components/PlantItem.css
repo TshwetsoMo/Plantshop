@@ -1,0 +1,75 @@
+.plant-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 32px;
+}
+
+Link{
+    color: white;
+}
+
+.plant-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.plant-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.plant-info {
+    padding: 16px;
+}
+
+.plant-name {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.plant-description {
+    color: white;
+    margin: 0 0 10px;
+}
+
+.plant-price,
+.plant-stock {
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #ff1900;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #0053ac;
+}

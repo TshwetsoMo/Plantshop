@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 77, 9);
+    padding: 1rem;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .navlinks {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navlinks li {
+    margin-right: 1rem;
+  }
+  
+  .navlinks li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .authbuttons {
+    display: flex;
+    list-style: none;
+  }
+  
+  .authbuttons li {
+    margin-left: 1rem;
+  }
+  
+  .authbuttons li {
+    background-color: #ffffff;
+    color: white;
+    border-radius: 19px;
+    border: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .authbuttons li button:hover {
+    background-color: #0056b3;
+  }
+
+  .hide{
+    display: none;
+  }

@@ -1,0 +1,53 @@
+.background{
+    height: fit-content;
+    width: 98.5%;
+    padding: 20px;
+    background-image: url(../images/homebackground\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.button{
+    float: left;
+    height: 45px;
+    width: 120px;
+    background-color: rgb(9, 77, 9);
+    border-radius: 32px;
+}
+
+.plantlist {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plant-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.add-plant-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.add-plant-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.add-plant-button:hover {
+    background-color: #45a049;
+}
+

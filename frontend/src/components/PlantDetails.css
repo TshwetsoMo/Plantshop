@@ -1,0 +1,62 @@
+/* PlantDetails.css */
+.container {
+    color: white;
+    max-width: 98.5%;
+    height: 100vh;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('../images/homebackground\ 2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.plant-details {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.plant-details img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.plant-info {
+    flex-grow: 1;
+}
+
+.plant-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.plant-info p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.back-button {
+    margin-bottom: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.back-button a:hover {
+    background-color: #e9e9e9;
+}
+
