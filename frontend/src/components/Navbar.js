@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../components/Navbar.css';
+import logo from '../images/GreenHaven.png'; // Import the logo image
 
 const Navbar = ({ loggedIn, userEmail, onLogout }) => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="logo.png" alt="Logo" /> {/* Add the src and alt attributes */}
+        <img src={logo} alt="Green Haven" /> {/* Use the logo image */}
       </div>
       <ul className="navlinks">
         <li><Link to="/">Home</Link></li>

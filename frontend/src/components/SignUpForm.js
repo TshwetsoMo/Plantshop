@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './SignUpForm.css'
+import './SignUpForm.css';
 
 const SignUpForm = ({ onClose }) => {
     const [name, setName] = useState('');
@@ -19,13 +19,16 @@ const SignUpForm = ({ onClose }) => {
             setMessage('User created successfully!');
             onClose(); // Close the sign-up form after successful registration
         } catch (error) {
-            setMessage('Error creating user.');
+            if (error.response && error.response.data.message) {
+                setMessage(`Error creating user: ${error.response.data.message}`);
+            } else {
+                setMessage('An error occurred while creating user.');
+            }
         }
     };
 
     return (
         <div className='SignUpForm'>
-            
             <form onSubmit={handleSubmit} className='form'>
                 <h1>Sign Up</h1><br/>
                 <div>

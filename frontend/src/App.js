@@ -8,7 +8,7 @@ import LoginForm from './components/LoginForm';
 import PlantForm from './components/PlantForm';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import PlantDetails from './components/PlantDetails';
+import PlantDetails from './components/PlantDetails'
 
 const App = () => {
   const [showSignUp, setShowSignUp] = useState(false);
